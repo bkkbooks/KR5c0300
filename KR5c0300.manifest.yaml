@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0300/v1
+canonical_location: https://kanripo.org/bkk/KR5c0300/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 稚川真人校證術
+  identifiers:
+    alt_id:
+    - DZ0902
+  date: '2015-08-29 00:55:44.416406'
+  source:
+    repository: kanripo
+    path: KR5c0300
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0300_000.yaml, hash: 'sha256:0e57c80c4e3347de1ab2a0e90989f4d4e27184b865d5ce9d47993bedee4d095f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0300_000.markers.yaml, hash: 'sha256:d041bb5632c85e3073ac19abd7580ba098883ebf495077a974628fb964ef398a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0300_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2317
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:35157ed3f57d249a64f9ab7b5e8ac0aa323adc17ec689c37de0a5aa937a46e31
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
